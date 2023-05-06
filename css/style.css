@@ -1,5 +1,7 @@
-body {
+body,html {
     font-family: 'Roboto';
+    height: 100%;
+    margin: 0;
 }
 
 a {
@@ -33,6 +35,7 @@ header {
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
+    min-height: 500px
 }
 
 .banner-container {
@@ -90,6 +93,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+    min-height: 500px
 }
 
 .header-content {
@@ -102,24 +107,66 @@ button {
 .content-container {
     display: flex;
     gap: 70px;
+    justify-content: center;
+    align-items: center;
 }
 
 .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-img {
     max-width: 200px;
     max-height: 200px;
     border:solid 5px #3882f6;
     border-radius: 10px
 }
 
-.item > img {
+.item > .item-img > img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 9px
+}
+
+.item > .item-img > img {
     max-width: 200px;
     max-height: 200px;
     border-radius: 9px
 }
 
 .item > .text {
+    max-width: 200px;
+    max-height: 300px;
     margin-top: 10px;
     text-align: center;
     font-size: 16px;
     color: #696969
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px
+}
+
+.quote-text {
+    max-width: 50%;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+}
+
+.quote-author {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #1f2937;
 }
