@@ -170,3 +170,50 @@ button {
     font-weight: 800;
     color: #1f2937;
 }
+
+.sign {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-container {
+    display: flex;
+    max-width: 1000px;
+    height: 250px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.sign-container-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    gap: 10px;
+}
+
+.sign-container-text-head {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.sign-container-text-detail {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-container > button {
+    font-size: 18px;
+    color: #f9faf8;
+    width: 130px;
+    height: 40px;
+    border: solid 2px #f9faf8;
+    border-radius: 6px;
+    margin-right: 100px;
+    background-color: #3882f6;
+}
