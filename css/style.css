@@ -84,3 +84,42 @@ button {
 .image > img {
     width: 300px;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+    margin: 50px;
+}
+
+.content-container {
+    display: flex;
+    gap: 70px;
+}
+
+.item {
+    max-width: 200px;
+    max-height: 200px;
+    border:solid 5px #3882f6;
+    border-radius: 10px
+}
+
+.item > img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 9px
+}
+
+.item > .text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #696969
+}
