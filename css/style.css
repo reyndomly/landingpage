@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 body,html {
-    font-family: 'Roboto';
-    height: 100%;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -19,6 +19,7 @@ header {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 900;
     margin-left: 200px;
     margin-top: 24px;
 }
@@ -50,7 +51,7 @@ header {
 
 .banner-container-text {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
     color: #f9faf8;
     margin-left: 200px;
 }
